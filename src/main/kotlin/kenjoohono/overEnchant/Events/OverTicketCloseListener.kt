@@ -16,7 +16,7 @@ class OverTicketCloseListener(private val plugin: JavaPlugin) : Listener {
         if (cursorItem != null) {
             val meta = cursorItem.itemMeta
             val expectedName = ChatColor.translateAlternateColorCodes('&', "&6최초 도감 코인")
-            if (cursorItem.type == Material.BOOK && meta?.displayName == expectedName) {
+            if (cursorItem.type == Material.GLOW_INK_SAC && meta?.displayName == expectedName) {
                 player.setItemOnCursor(null)
                 player.updateInventory()
             }
