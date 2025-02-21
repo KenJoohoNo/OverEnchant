@@ -1,0 +1,8 @@
+name: OverEnchant
+version: '1'
+main: kenjoohono.overEnchant.OverEnchant
+api-version: '1.21'
+commands:
+  overticket:
+    description: 오버 인챈트 티켓 지급 명령어
+    usage: /overticket
